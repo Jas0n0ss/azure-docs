@@ -11,9 +11,6 @@ abbrlink: 54154
 date: 2022-09-19 18:20:14
 ---
 
-{% youtube HpoRqs5QzRQ %}
----
-
 * Installing SQL Server High Availability Package
 * Installing and Enabling SQL Server Agent if its not installed and enabled already
 * Enable SQL server High Availability on each Node
