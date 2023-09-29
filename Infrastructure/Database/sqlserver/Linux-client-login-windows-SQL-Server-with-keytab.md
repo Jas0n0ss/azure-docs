@@ -28,11 +28,17 @@ SQLREPRO\sqlroot
 ```
 - create keytab on windows for user `sqlrepro\sqlroot`
 ```powershell
+#
 ktpass /princ MSSQLSvc/primarydc.SQLREPRO.EDU:1433@SQLREPRO.EDU /ptype KRB5_NT_PRINCIPAL /crypto aes256-sha1 /mapuser SQLREPRO\sqlroot /out sqlroot.keytab -setpass -setupn /kvno 2 /pass MyPasswo0d1
+#
 ktpass /princ MSSQLSvc/primarydc.SQLREPRO.EDU:1433@SQLREPRO.EDU /ptype KRB5_NT_PRINCIPAL /crypto rc4-hmac-nt /mapuser SQLREPRO\sqlroot /in sqlroot.keytab /out sqlroot.keytab -setpass -setupn /kvno 2 /pass MyPasswo0d1
+#
 ktpass /princ MSSQLSvc/primarydc.SQLREPRO.EDU:1433@SQLREPRO.EDU /ptype KRB5_NT_PRINCIPAL /crypto aes256-sha1 /mapuser SQLREPRO\sqlroot /in sqlroot.keytab /out sqlroot.keytab -setpass -setupn /kvno 2 /pass MyPasswo0d1
+#
 ktpass /princ MSSQLSvc/primarydc.SQLREPRO.EDU:1433@SQLREPRO.EDU /ptype KRB5_NT_PRINCIPAL /crypto rc4-hmac-nt /mapuser SQLREPRO\sqlroot /in sqlroot.keytab /out sqlroot.keytab -setpass -setupn /kvno 2 /pass MyPasswo0d1
+#
 ktpass /princ sqlroot@SQLREPRO.EDU /ptype KRB5_NT_PRINCIPAL /crypto aes256-sha1 /mapuser SQLREPRO\sqlroot /in sqlroot.keytab /out sqlroot.keytab -setpass -setupn /kvno 2 /pass MyPasswo0d1
+#
 ktpass /princ sqlroot@SQLREPRO.EDU /ptype KRB5_NT_PRINCIPAL /crypto rc4-hmac-nt /mapuser SQLREPRO\sqlroot  /in sqlroot.keytab /out sqlroot.keytab -setpass -setupn /kvno 2 /pass MyPasswo0d1
 ```
 - copy the keytab to linux server and grant required permission
@@ -55,11 +61,9 @@ Valid starting       Expires              Service principal
 ```
 - test connection
 ```bash
-[sqlroot@sqlrepro.edu@linux ~]$ sqlcmd -S primarydc -E -Q 'select system_user'
-                                                                                                                   
+[sqlroot@sqlrepro.edu@linux ~]$ sqlcmd -S primarydc -E -Q 'select system_user'                                                                                                      
 ----------------------------
-SQLREPRO\sqlroot                                                                                                   
-
+SQLREPRO\sqlroot                                                                                             
 (1 rows affected)
 
 ```

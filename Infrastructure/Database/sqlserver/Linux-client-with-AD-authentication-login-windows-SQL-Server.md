@@ -58,11 +58,9 @@ Valid starting       Expires              Service principal
         renew until 08/22/2022 02:52:18
 [sqladmin@sqlrepro.edu@linux ~]$ whoami
 sqladmin@sqlrepro.edu
-[sqladmin@sqlrepro.edu@linux ~]$ sqlcmd -S primarydc -E -Q'select system_user'
-                                                                                                           
+[sqladmin@sqlrepro.edu@linux ~]$ sqlcmd -S primarydc -E -Q'select system_user'                                                                                                           
 ---------------------------------------------------------------------------
 SQLREPRO\sqladmin                                                                                          
-
 (1 rows affected)
 
 ```
