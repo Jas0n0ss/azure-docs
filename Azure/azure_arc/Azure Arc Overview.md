@@ -8,6 +8,3 @@ https://learn.microsoft.com/en-us/azure/azure-arc/overview
 
 <img src="https://www.devopsschool.com/blog/wp-content/uploads/2021/09/azure-arc.png"  />
 
----
-
--  [Azure-arc-enabled-SQLMI-instance-Password-and-Username-Encode-and-Decode.md](docs/Azure-arc-enabled-SQLMI-instance-Password-and-Username-Encode-and-Decode.md) 
