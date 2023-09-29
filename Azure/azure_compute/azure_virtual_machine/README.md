@@ -1,0 +1,1 @@
+![](https://www.answerrocket.com/wp-content/uploads/2023/06/azure-virtual-machines-logo-625x345-1.png)

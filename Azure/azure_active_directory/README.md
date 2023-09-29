@@ -1,1 +1,2 @@
-### Azure_active_directory
+![](https://docs.cyderes.cloud/img/azure_ad.png)
+

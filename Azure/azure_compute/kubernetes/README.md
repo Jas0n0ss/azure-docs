@@ -1,0 +1,1 @@
+![](https://optisolprod.wpenginepowered.com/wp-content/uploads/sites/6/2019/07/MS-overview-archi.png)
