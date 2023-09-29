@@ -11,7 +11,19 @@
 
 ---
 
-| Service_name                                           | Service_name                         | Service_name                               | Service_name                         | Service_name                         |
-| ------------------------------------------------------ | ------------------------------------ | ------------------------------------------ | ------------------------------------ | ------------------------------------ |
-| [azure_active_directory](Azure/azure_active_directory) | [azure_cdn](Azure/azure_cdn)         | [azure_database](Azure/azure_database)     | [azure_network](Azure/azure_network) | [azure_storage](Azure/azure_storage) |
-| [azure_arc](Azure/azure_arc)                           | [azure_compute](Azure/azure_compute) | [azure_deployment](Azure/azure_deployment) | [azure_migrate](Azure/azure_migrate) | [Infrastructure](Infrastructure)     |
+### Azure Services
+
+|                        Category                        |               Category               |                  Category                  |               Category               |               Category               |
+| :----------------------------------------------------: | :----------------------------------: | :----------------------------------------: | :----------------------------------: | :----------------------------------: |
+| [azure_active_directory](Azure/azure_active_directory) |     [azure_cdn](Azure/azure_cdn)     |   [azure_database](Azure/azure_database)   | [azure_network](Azure/azure_network) | [azure_storage](Azure/azure_storage) |
+|              [azure_arc](Azure/azure_arc)              | [azure_compute](Azure/azure_compute) | [azure_deployment](Azure/azure_deployment) | [azure_migrate](Azure/azure_migrate) |   [Infrastructure](Infrastructure)   |
+
+---
+
+### Infrastructure
+
+|               Category                |                Category                 |             Category              |               Category                |
+| :-----------------------------------: | :-------------------------------------: | :-------------------------------: | :-----------------------------------: |
+| [Container](Infrastructure/Container) |     [devops](Infrastructure/devops)     |   [Linux](Infrastructure/Linux)   |   [Network](Infrastructure/Network)   |
+|  [Database](Infrastructure/Database)  | [kubernetes](Infrastructure/kubernetes) | [Monitor](Infrastructure/Monitor) | [Webserver](Infrastructure/Webserver) |
+
