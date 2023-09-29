@@ -1,5 +1,7 @@
 title: Azure Services Category
-description: Repository of teches to architect
+description: Azure services personal documentation
+url: azure.msft.vip
+baseurl: https://github.com/Jas0n0ss/way-to-azure-architecture
 remote_theme: rundocs/jekyll-rtd-theme
 
 # folders sort
