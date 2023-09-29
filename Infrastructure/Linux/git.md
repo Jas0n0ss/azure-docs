@@ -46,7 +46,7 @@ git init        #将一个项目转化为使用git管理（创建.git目录）
 
 示例：
 
-![](../../pic/git-1.png)
+![](../pic/git-1.png)
 
 目录结构：
 
@@ -141,7 +141,7 @@ git branch --set-upstream dev origin/dev
 
 Bootstrap的官方仓库twbs/bootstrap、你在GitHub上克隆的仓库my/bootstrap，以及你自己克隆到本地电脑的仓库，他们的关系就像下图显示的那样：
 
-![](../../pic/git-2.png)
+![](../pic/git-2.png)
 
 如果你想修复bootstrap的一个bug，或者新增一个功能，立刻就可以开始干活，干完后，往自己的仓库推送
 
@@ -153,7 +153,7 @@ Bootstrap的官方仓库twbs/bootstrap、你在GitHub上克隆的仓库my/bootst
 
 隐藏目录`.git`不算工作区，而是Git的版本库。版本库里存了很多东西，其中最重要的就是**称为stage（或者叫index）的暂存区**。还有Git为我们自动创建的第一个分支`master`，以及指向`master`的一个指针叫`HEAD`
 
-![](../../pic/git-3.png)
+![](../pic/git-3.png)
 
 ### 1.添加或删除修改
 
@@ -187,7 +187,7 @@ git checkout -- [文件名]
 
 如果修改了readme.txt，添加了文件LICENSE，并将2者添加到暂存区后，暂存区的状态就变成这样：
 
-![](../../pic/git-4.png)
+![](../pic/git-4.png)
 
 使用commit提交修改，实际上就是把暂存区的所有内容提交到当前分支：
 
@@ -195,7 +195,7 @@ git checkout -- [文件名]
 git commit -m '信息'
 ```
 
-![](../../pic/git-5.png)
+![](../pic/git-5.png)
 
 > commit相当于游戏里面一次存档。对应一个版本
 

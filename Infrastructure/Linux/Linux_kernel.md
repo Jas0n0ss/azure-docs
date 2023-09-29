@@ -41,7 +41,7 @@
 
 扇区和块的关系下图：
 
-<div align="center"> <img src="../../pic/kernel-blockio-1.png"/> </div>
+<div align="center"> <img src="../pic/kernel-blockio-1.png"/> </div>
 
 <br>
 
@@ -182,7 +182,7 @@ struct bio {
 
 下图描绘了bio、bio_vec、page三者间的关系：
 
-<div align="center"> <img src="../../pic/kernel-blockio-2.png"/> </div>
+<div align="center"> <img src="../pic/kernel-blockio-2.png"/> </div>
 
 **总之，每个块I/O请求用一个bio结构表示，每个请求由一个或多个块组成(对应一个或多个buffer)，这些块通过bi\_io\_vec指向的bio\_vec链表串连起来。随着块I/O层提交片段，bi_idx域被更新指向当前段。**
 
@@ -251,7 +251,7 @@ Linux Elevator调度算法包括合并和排序操作
 * 此外，它还根据请求的类型将读请求和写请求分别插入到**read FIFO queue**和**write FIFO queue**。虽然sorted queue是按照物理磁盘访问顺序对请求进行排序，但是**read FIFO queue**和**write FIFO queue**严格保持先进先出的顺序。正常情况下，deadline从sorted queue头部取出一个请求，提交到分发队列(dispatch queue)，分发队列进一步将请求提交给磁盘。这保证了最小化寻道时间
 * 如果**read FIFO queue**或者**write FIFO queue**中的头部请求到期(也就是说，当前时间超过了请求的到期时间)，则deadline转为服务FIFO队列。这确保了不会有请求超过到期时间太多才完成
 
-<div align="center"> <img src="../../pic/kernel-blockio-3.png"/> </div>
+<div align="center"> <img src="../pic/kernel-blockio-3.png"/> </div>
 
 > deadline并不保证请求的**完成**时间，它只保证在到期时间来临之前或者在到期时间来临时**提交**请求。这能够防止饥饿发生。同时，由于读请求的到期时间远小于写请求的到期时间，它也能防止写饥饿读。对读请求的照顾确保了最小化的读延迟
 
