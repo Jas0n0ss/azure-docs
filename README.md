@@ -1,4 +1,4 @@
-![azure](./img/azure.png)
+![azure](../img/azure.png)
 
 # Azure Learning docs and demos
 
@@ -9,21 +9,9 @@
 
 **This repository is all related to azure services, will provide some docs and demos here.**
 
----
-
 ### Azure Services
 
-|                        Category                        |               Category               |                  Category                  |               Category               |               Category               |
-| :----------------------------------------------------: | :----------------------------------: | :----------------------------------------: | :----------------------------------: | :----------------------------------: |
-| [azure_active_directory](Azure/azure_active_directory) |     [azure_cdn](Azure/azure_cdn)     |   [azure_database](Azure/azure_database)   | [azure_network](Azure/azure_network) | [azure_storage](Azure/azure_storage) |
-|              [azure_arc](Azure/azure_arc)              | [azure_compute](Azure/azure_compute) | [azure_deployment](Azure/azure_deployment) | [azure_migrate](Azure/azure_migrate) |   [Infrastructure](Infrastructure)   |
-
----
-
-### Infrastructure
-
-| Category                              | Category                                | Category                          | Category                              |
-| :------------------------------------ | :-------------------------------------- | :-------------------------------- | :------------------------------------ |
-| [Container](Infrastructure/Container) | [devops](Infrastructure/devops)         | [Linux](Infrastructure/Linux)     | [Network](Infrastructure/Network)     |
-| [Database](Infrastructure/Database)   | [kubernetes](Infrastructure/kubernetes) | [Monitor](Infrastructure/Monitor) | [Webserver](Infrastructure/Webserver) |
-
+| Category                                         | Category                       | Category                             | Category                       | Category                       |
+| :----------------------------------------------- | :----------------------------- | :----------------------------------- | :----------------------------- | :----------------------------- |
+| [azure_active_directory](azure_active_directory) | [azure_cdn](azure_cdn)         | [azure_database](azure_database)     | [azure_network](azure_network) | [azure_storage](azure_storage) |
+| [azure_arc](azure_arc)                           | [azure_compute](azure_compute) | [azure_deployment](azure_deployment) | [azure_migrate](azure_migrate) |                                |
