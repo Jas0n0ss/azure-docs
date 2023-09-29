@@ -2,6 +2,8 @@
 
 ### Infrastructure services
 
+#### Infrastructure categories
+
 |        Category        |     Category     |         Category         |        Category        |
 | :--------------------: | :--------------: | :----------------------: | :--------------------: |
 | [Container](Container) |  [Linux](Linux)  | [kubernetes](kubernetes) | [Webserver](Webserver) |
