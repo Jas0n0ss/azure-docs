@@ -1,3 +1,12 @@
 ### Azure_deployment
 
-####  [azure_devops](azure_devops) 
+---
+
+-  [container_app](container_app) 
+-  [container_instance](container_instance) 
+-  [container_register](container_register) 
+-  [azure devops](devops) 
+-  [funcation_app](funcation_app) 
+-  [kubernetes](kubernetes)  
+- [openshift](openshift) 
+
