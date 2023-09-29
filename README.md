@@ -16,7 +16,6 @@
 ---
 
 - [**Azure Services Overview**](https://azurecharts.com/overview)
-
 - [**Azure Learning Top**](https://azurecharts.com/learning/top)
 - [**Azure Study Map For Solution Architecture**](https://azurecharts.com/learning/map/?r=solution-architect&l=advanced)
 - [**Azure Services Directory**](https://azurecharts.com/directory)
