@@ -1,4 +1,4 @@
-![container app](../../img/aca.png)
+![container app](../../../img/aca.png)
 
 ### Azure Container App
 
