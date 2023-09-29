@@ -1,3 +1,5 @@
+![container app](../../img/aca.png)
+
 ### Azure Container App
 
 - [ACA-vs-AKS-Which-Azure-Service-Is-Better-for-Running-Containers.md](docs/ACA-vs-AKS-Which-Azure-Service-Is-Better-for-Running-Containers.md) 

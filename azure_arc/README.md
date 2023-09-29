@@ -1,4 +1,5 @@
-### Azure_arc
+### Azure Arc
 
-- [Azure-arc-enabled-SQLMI-instance-Password-and-Username-Encode-and-Decode.md](Azure-arc-enabled-SQLMI-instance-Password-and-Username-Encode-and-Decode.md) 
+> Azure Arc overview
 
+-  [Azure-arc-enabled-SQLMI-instance-Password-and-Username-Encode-and-Decode.md](docs/Azure-arc-enabled-SQLMI-instance-Password-and-Username-Encode-and-Decode.md) 

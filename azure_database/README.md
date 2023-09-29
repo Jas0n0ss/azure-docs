@@ -1,11 +1,11 @@
-### Azure_database
+### Azure Databases Overview
 
-####  [azure_cosmosDB](azure_cosmosDB) 
+---
 
-####  [azure_mariadb](azure_mariadb) 
+> Azure Databases Overview
 
-####  [azure_postgresql](azure_postgresql) 
-
-####  [azure_redis](azure_redis) 
-
-####  [azure_sql](azure_sql) 
+- [azure_cosmosDB](azure_cosmosDB/README.md) 
+- [azure_mariadb](azure_mariadb/README.md) 
+- [azure_postgresql](azure_postgresql/README.md) 
+- [azure_redis](azure_redis/README.md) 
+- [azure_sql](azure_sql/README.md) 
