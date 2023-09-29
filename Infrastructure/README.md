@@ -6,11 +6,3 @@
 | :--------------------: | :--------------: | :----------------------: | :--------------------: |
 | [Container](Container) |  [Linux](Linux)  | [kubernetes](kubernetes) | [Webserver](Webserver) |
 |  [Database](Database)  | [Devops](devops) |    [Monitor](Monitor)    |   [Network](Network)   |
-
-#### 
-
-#### 
-
-#### 
-
-#### 
