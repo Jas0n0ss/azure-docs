@@ -11,10 +11,6 @@ abbrlink: 36781
 date: 2022-09-20 00:41:33
 ---
 
-{% youtube uxlkQ1FbKyQ %}
-
----
-
 - What is deadlock in SQL Server?
 - What is Blocking in SQL Server?
 - What is difference between deadlock and blocking in SQL Server?
