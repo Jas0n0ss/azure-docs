@@ -5,7 +5,7 @@ remote_theme: rundocs/jekyll-rtd-theme
 
 # folders sort
 readme_index:
-  with_frontmatter: true
+  with_frontmatter: false
 
 meta:
   key1: value1
