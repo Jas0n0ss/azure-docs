@@ -2,9 +2,9 @@
 
 ##### Microsoft official doc reference
 
-- []: https://docs.microsoft.com/en-us/azure/azure-arc/data/create-data-controller-using-kubernetes-native-tools
+- [https://docs.microsoft.com/en-us/azure/azure-arc/data/create-data-controller-using-kubernetes-native-tools](https://docs.microsoft.com/en-us/azure/azure-arc/data/create-data-controller-using-kubernetes-native-tools)
 
-- []: https://docs.microsoft.com/en-us/azure/azure-arc/data/create-data-controller-using-kubernetes-native-tools#overview
+- [https://docs.microsoft.com/en-us/azure/azure-arc/data/create-data-controller-using-kubernetes-native-tools#overview](https://docs.microsoft.com/en-us/azure/azure-arc/data/create-data-controller-using-kubernetes-native-tools#overview)
 
 ##### Prerequisites
 
@@ -12,17 +12,17 @@
 
   - **Install kubectl**: 
 
-    []: https://kubernetes.io/docs/tasks/tools/
+    [https://kubernetes.io/docs/tasks/tools/](https://kubernetes.io/docs/tasks/tools/)
 
   - **Install oc**: 
 
-    []: https://mirror.openshift.com/pub/openshift-v4/clients/ocp/stable/
+    [https://mirror.openshift.com/pub/openshift-v4/clients/ocp/stable/](https://mirror.openshift.com/pub/openshift-v4/clients/ocp/stable/)
 
 ##### Create an Azure Red Hat OpenShift cluster with `azure-cli`
 
 - Setup guide: 
 
-  []: https://docs.microsoft.com/en-us/azure/openshift/tutorial-create-cluster
+  [https://docs.microsoft.com/en-us/azure/openshift/tutorial-create-cluster](https://docs.microsoft.com/en-us/azure/openshift/tutorial-create-cluster)
 
 - Create `rbac`authentication with `azure-cli`:
 
@@ -42,7 +42,7 @@
 
 Official tutorial: 
 
-[]: https://docs.microsoft.com/en-us/azure/openshift/tutorial-connect-cluster
+[https://docs.microsoft.com/en-us/azure/openshift/tutorial-connect-cluster](https://docs.microsoft.com/en-us/azure/openshift/tutorial-connect-cluster)
 
 ```bash
 # list console login info
@@ -77,7 +77,7 @@ openshift.io/sa.scc.uid-range: 1000700001/10000
 
 ##### Create the custom resource definitions
 
-[]: https://docs.microsoft.com/en-us/azure/azure-arc/data/create-data-controller-using-kubernetes-native-tools#create-the-custom-resource-definitions
+[https://docs.microsoft.com/en-us/azure/azure-arc/data/create-data-controller-using-kubernetes-native-tools#create-the-custom-resource-definitions](https://docs.microsoft.com/en-us/azure/azure-arc/data/create-data-controller-using-kubernetes-native-tools#create-the-custom-resource-definitions)
 
 ```bash
 [root@azk8s-oc arc]# oc create -f https://raw.githubusercontent.com/microsoft/azure_arc/main/arc_data_services/deploy/yaml/custom-resource-definitions.yaml
@@ -88,7 +88,7 @@ Now using project "arc" on server "https://xxxxxxxxxxxxxxxxx".
 
 ##### Create the bootstrapper service
 
-[]: https://docs.microsoft.com/en-us/azure/azure-arc/data/create-data-controller-using-kubernetes-native-tools#create-the-bootstrapper-service
+[https://docs.microsoft.com/en-us/azure/azure-arc/data/create-data-controller-using-kubernetes-native-tools#create-the-bootstrapper-service](https://docs.microsoft.com/en-us/azure/azure-arc/data/create-data-controller-using-kubernetes-native-tools#create-the-bootstrapper-service)
 
 > Make sure image version is `v1.8.0_2022-06-14`, latest version `v1.9.0_2022-07-12` have pull issues
 
@@ -99,7 +99,7 @@ Now using project "arc" on server "https://xxxxxxxxxxxxxxxxx".
 
 ##### Create secrets for the metrics and logs dashboards
 
-[]: https://docs.microsoft.com/en-us/azure/azure-arc/data/create-data-controller-using-kubernetes-native-tools#create-secrets-for-the-metrics-and-logs-dashboards
+[https://docs.microsoft.com/en-us/azure/azure-arc/data/create-data-controller-using-kubernetes-native-tools#create-secrets-for-the-metrics-and-logs-dashboards](https://docs.microsoft.com/en-us/azure/azure-arc/data/create-data-controller-using-kubernetes-native-tools#create-secrets-for-the-metrics-and-logs-dashboards)
 
 ```bash
 [root@azk8s-oc arc]# wget https://raw.githubusercontent.com/microsoft/azure_arc/main/arc_data_services/deploy/yaml/controller-login-secret.yaml
@@ -128,7 +128,7 @@ type: Opaque
 
 ##### Create the webhook deployment job, cluster role and cluster role binding
 
-[]: https://docs.microsoft.com/en-us/azure/azure-arc/data/create-data-controller-using-kubernetes-native-tools#create-the-webhook-deployment-job-cluster-role-and-cl
+[https://docs.microsoft.com/en-us/azure/azure-arc/data/create-data-controller-using-kubernetes-native-tools#create-the-webhook-deployment-job-cluster-role-and-cl](https://docs.microsoft.com/en-us/azure/azure-arc/data/create-data-controller-using-kubernetes-native-tools#create-the-webhook-deployment-job-cluster-role-and-cl)
 
 ```bash
 [root@azk8s-oc arc]# wget https://raw.githubusercontent.com/microsoft/azure_arc/main/arc_data_services/deploy/yaml/web-hook.yaml
@@ -139,7 +139,7 @@ type: Opaque
 
 ##### Create the data controller
 
-[]: https://docs.microsoft.com/en-us/azure/azure-arc/data/create-data-controller-using-kubernetes-native-tools#create-the-data-controller
+[https://docs.microsoft.com/en-us/azure/azure-arc/data/create-data-controller-using-kubernetes-native-tools#create-the-data-controller](https://docs.microsoft.com/en-us/azure/azure-arc/data/create-data-controller-using-kubernetes-native-tools#create-the-data-controller)
 
 ```bash
 [root@azk8s-oc arc]#  wget https://raw.githubusercontent.com/microsoft/azure_arc/release-arc-data/arc_data_services/deploy/yaml/data-controller.yaml
@@ -159,7 +159,7 @@ metricsui-c4bxg      2/2     Running   0               3h20m
 
 ##### Create sqlmi instance with Microsoft office template
 
-[]: https://github.com/microsoft/azure_arc/blob/main/arc_data_services/deploy/yaml/sqlmi.yaml
+[https://github.com/microsoft/azure_arc/blob/main/arc_data_services/deploy/yaml/sqlmi.yaml](https://github.com/microsoft/azure_arc/blob/main/arc_data_services/deploy/yaml/sqlmi.yaml)
 
 ```yaml
 [root@azk8s-oc mnt]# wget https://raw.githubusercontent.com/microsoft/azure_arc/main/arc_data_services/deploy/yaml/sqlmi.yaml
