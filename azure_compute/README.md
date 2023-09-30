@@ -1,10 +1,9 @@
+# Azure Compute 
 
+## [Azure app_service](app_service) 
 
-### Azure Compute 
+## [Azure_arc](azure_arc)  
 
-> Azure compute overview
+## [Azure_virtual_machine](azure_virtual_machine) 
 
--  [app_service](app_service) 
--  [azure_arc](azure_arc)  
--  [azure_virtual_machine](azure_virtual_machine) 
--  [vmware_solution](vmware_solution) 
+## [Azure_vmware_solution](vmware_solution) 
