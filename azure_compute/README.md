@@ -1,9 +1,11 @@
 # Azure Compute 
 
-## [Azure app_service](app_service) 
+<img src="../img/image-20231006135943766.png" alt="image-20231006135943766" style="zoom: 67%;" />
 
-## [Azure_arc](azure_arc)  
+- **[Azure app_service](app_service)**
 
-## [Azure_virtual_machine](azure_virtual_machine) 
+- **[Azure_arc](azure_arc)**  
 
-## [Azure_vmware_solution](vmware_solution) 
+- **[Azure_virtual_machine](azure_virtual_machine)** 
+
+- **[Azure_vmware_solution](vmware_solution)** 

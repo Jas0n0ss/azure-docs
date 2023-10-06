@@ -1,7 +1,7 @@
 ### Azure_storage
 
-####  [azure_storage](azure_storage) 
+- **[Azure_storage](azure_storage)**
 
-####  [azure_netapp_files](azure_netapp_files) 
+- **[Azure_netapp_files](azure_netapp_files)** 
 
-####  [azure_blob](azure_blob) 
+- **[Azure_blob](azure_blob)** 

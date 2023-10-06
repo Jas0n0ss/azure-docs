@@ -2,11 +2,12 @@
 
 ---
 
--  [container_app](container_app) 
--  [container_instance](container_instance) 
--  [container_register](container_register) 
--  [azure devops](devops) 
--  [funcation_app](funcation_app) 
--  [kubernetes](kubernetes)  
-- [openshift](openshift) 
+![](../img/azure-deployment-environments-scenarios.png)
 
+-  **[Azure_Container_App](container_app)** 
+-  **[Azure_Container_Instance](container_instance)** 
+-  **[Azure_Container_Register](container_register)** 
+-  **[Azure Devops](devops)** 
+-  **[Azure_Funcation_App](funcation_app)** 
+-  **[Azure_Kubernetes](kubernetes)**  
+-  **[Azure_Openshift](openshift)** 
