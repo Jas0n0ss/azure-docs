@@ -1,11 +1,17 @@
+---
+sort: 1
+---
+
+# 该级目录的标题
 ![azure](./img/azure.png)
-
 # Azure Learning docs and demos
-
 - [**Azure Services Overview**](https://azurecharts.com/overview)
 - [**Azure Learning Top**](https://azurecharts.com/learning/top)
 - [**Azure Study Map For Solution Architecture**](https://azurecharts.com/learning/map/?r=solution-architect&l=advanced)
 - [**Azure Services Directory**](https://azurecharts.com/directory)
+
+{% include list.liquid all=true %}
+source: `{{ page.path }}`
 
 ---
 
