@@ -28,8 +28,8 @@ mermaid:
   custom:     # mermaid link
   initialize: # this will prased to json, default: {}
 
-scss:   # also _includes/extra/styles.scss
-script: # also _includes/extra/script.js
+scss:  _includes/extra/styles.scss
+script: _includes/extra/script.js
 
 translate:
   # shortcodes
@@ -38,9 +38,9 @@ translate:
   tip:
   warning:
   # 404
-  not_found:
+  not_found: 404.html
   # copyright
-  revision:
+  revision: Jas0n0ss
   # search
   searching:
   search:
