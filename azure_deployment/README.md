@@ -1,3 +1,9 @@
+---
+sort: 2
+---
+
+source: `{{ page.path }}`
+
 ### Azure_deployment
 
 ---
