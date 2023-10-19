@@ -11,7 +11,7 @@
 
 > **This repository is all related to azure services, will provide some docs and demos here.**
 
-### Azure Services
+# Azure Services
 
 -  **[Azure_Compute](azure_compute)** 
 -  **[Azure_Database](azure_database)** 
