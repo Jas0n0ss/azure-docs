@@ -28,17 +28,17 @@ mermaid:
   custom:     # mermaid link
   initialize: # this will prased to json, default: {}
 
-scss:  _includes/extra/styles.scss
-script: _includes/extra/script.js
+scss: # _includes/extra/styles.scss
+script: #_includes/extra/script.js
 
 translate:
   # shortcodes
-  danger:
-  note:
-  tip:
-  warning:
+  danger: _includes/shortcodes/danger.liquid
+  note: _includes/shortcodes/note.liquid
+  tip: _includes/shortcodes/tip.liquid
+  warning: _includes/shortcodes/warning.liquid
   # 404
-  not_found: 404.html
+  not_found: assets/404.liquid
   # copyright
   revision: Jas0n0ss
   # search
@@ -54,3 +54,9 @@ plugins:
   - jemoji
   - jekyll-avatar
   - jekyll-mentions
+
+exclude:
+  - Makefile
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
