@@ -7,9 +7,18 @@ remote_theme: rundocs/jekyll-rtd-theme
 readme_index:
   with_frontmatter: false
 
-meta:
-  key1: value1
-  key2: value2
+#meta:
+#  key1: value1
+#  key2: value2
+
+plugins: ["jekyll-toc"]
+
+# 默认为所有文章启用 toc
+defaults:
+  - scope:
+      path: ""
+    values:
+      toc: true
 
 google:
   gtag:
@@ -43,6 +52,7 @@ translate:
   search_results_not_found:
 
 plugins:
+	- jekyll-toc
   - jemoji
   - jekyll-avatar
   - jekyll-mentions

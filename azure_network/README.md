@@ -1,8 +1,3 @@
----
-sort: 2
----
-
-source: `{{ page.path }}`
 ### Azure Network 
 
 > Azure network overview

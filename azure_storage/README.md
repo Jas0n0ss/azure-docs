@@ -1,8 +1,3 @@
----
-sort: 2
----
-
-source: `{{ page.path }}`
 ### Azure_storage
 
 - **[Azure_storage](azure_storage)**

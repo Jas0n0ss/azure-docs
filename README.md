@@ -1,12 +1,3 @@
----
-sort: 1
----
----
-sort: 1
----
-
-{% include list.liquid all=true %}
-source: `{{ page.path }}`
 
 ![azure](./img/azure.png)
 

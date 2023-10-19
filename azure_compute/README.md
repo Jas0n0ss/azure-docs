@@ -1,10 +1,4 @@
 
----
-sort: 2
----
-
-source: `{{ page.path }}`
-
 # Azure Compute 
 
 <img src="../img/image-20231006135943766.png" alt="image-20231006135943766" style="zoom: 67%;" />
