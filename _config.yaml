@@ -2,18 +2,15 @@
 title: Azure Services Category
 description: Azure services personal documentation
 url: azure.msft.vip
-<<<<<<< Updated upstream
 #remote_theme: rundocs/jekyll-rtd-theme
 =======
 tag: Azure
 # remote_theme: rundocs/jekyll-rtd-theme
 ---
->>>>>>> Stashed changes
 
 # folders sort
 readme_index:
   with_frontmatter: true
-
 timezone: Asia/Shanghai
 
 # 默认为所有文章启用 toc
