@@ -9,7 +9,12 @@ Welcome to Azure-Services's documentation!
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
-
+	 
+	 azure_compute/index
+	 azure_database/index
+	 azure_deployment/index
+	 azure_network/index
+	 azure_storage/index
 
 
 Indices and tables
