@@ -5,9 +5,11 @@
     />
 
 ![azure](img/azure.png)
-#文档中心
 
-##文档概览
+---
+# 文档中心
+
+## 文档概览
 
 <table width="100%" border="0" cellspacing="0" cellpadding="0" style="table-layout:fixed;">
   <tr>
@@ -24,7 +26,7 @@
   </tr>
 </table>
 
-##计算
+## 计算
 
 <table width="100%" border="0" cellspacing="0" cellpadding="0" style="table-layout:fixed;">
   <tr>
@@ -41,7 +43,7 @@
   </tr>
 </table>
 
-##Web和移动
+## Web和移动
 
 <table width="100%" border="0" cellspacing="0" cellpadding="0" style="table-layout:fixed;">
   <tr col>
@@ -52,7 +54,7 @@
   </tr>
 </table>
 
-##数据和存储
+## 数据和存储
 
 <table width="100%" border="0" cellspacing="0" cellpadding="0" style="table-layout:fixed;">
   <tr>
@@ -69,7 +71,7 @@
   </tr>
 </table>
 
-##分析
+## 分析
 
 <table width="100%" border="0" cellspacing="0" cellpadding="0" style="table-layout:fixed;">
   <tr>
@@ -80,7 +82,7 @@
   </tr>
 </table>
 
-##物联网
+## 物联网
 
 <table width="100%" border="0" cellspacing="0" cellpadding="0" style="table-layout:fixed;">
   <tr>
@@ -91,7 +93,7 @@
   </tr>
 </table>
 
-##网络
+## 网络
 
 <table width="100%" border="0" cellspacing="0" cellpadding="0" style="table-layout:fixed;">
   <tr>
@@ -108,7 +110,7 @@
   </tr>
 </table>
 
-##媒体和CDN
+## 媒体和CDN
 
 <table width="100%" border="0" cellspacing="0" cellpadding="0" style="table-layout:fixed;">
   <tr>
@@ -119,7 +121,7 @@
   </tr>
 </table>
 
-##混合集成
+## 混合集成
 
 <table width="100%" border="0" cellspacing="0" cellpadding="0" style="table-layout:fixed;">
   <tr>
@@ -130,7 +132,7 @@
   </tr>
 </table>
 
-##身份和访问管理
+## 身份和访问管理
 
 <table width="100%" border="0" cellspacing="0" cellpadding="0" style="table-layout:fixed;">
   <tr>
@@ -141,7 +143,7 @@
   </tr>
 </table>
 
-##管理与安全
+## 管理与安全
 
 <table width="100%" border="0" cellspacing="0" cellpadding="0" style="table-layout:fixed;">
   <tr>
@@ -152,7 +154,7 @@
   </tr>
 </table>
 
-##开发文档
+## 开发文档
 
 <table width="100%" border="0" cellspacing="0" cellpadding="0"style="table-layout:fixed;">
   <tr>
@@ -175,16 +177,16 @@
   </tr>
 </table>
 
-##[工具下载](/downloads/)
+## [ 工具下载](/downloads/)
 
-##[常用操作指南](/documentation/services/azure-operations-guide)
+## [常用操作指南](/documentation/services/azure-operations-guide)
 <!--
-##故障排除-->
+## 故障排除-->
 
-##自动化脚本
+## 自动化脚本
 
 
-####常用脚本
+#### 常用脚本
 - [部署指向 SQL 数据库 和存储帐户的 Azure 网站](http://gallery.technet.microsoft.com/scriptcenter/Deploy-a-Windows-Azure-Web-790cacd2)
 - [远程更新 Azure 网站的环境设置](http://gallery.technet.microsoft.com/scriptcenter/Remotely-Update-the-25375d03)
 - [下载和分析来自 Azure 网站的 IIS 日志](http://gallery.technet.microsoft.com/scriptcenter/and-Parse-IIS-logs-from-a-9b85431b)
@@ -192,7 +194,7 @@
 - [在 Azure 虚拟机中部署 SQL Server 数据仓库](http://gallery.technet.microsoft.com/scriptcenter/Deploy-a-SQL-Server-Data-584e88d5)
 
 <!--
-##服务文档
+## 服务文档
 
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
   <tr>
