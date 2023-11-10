@@ -4,7 +4,7 @@
     wacn.date="07/06/2016"
     />
 
-![azure](.img/azure.png)
+![azure](img/azure.png)
 #文档中心
 
 ##文档概览
