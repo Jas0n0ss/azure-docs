@@ -1,1 +1,0 @@
-![](https://docs.centreon.com/assets/images/cloud-azure-web-appservice-provider-2fae421574735d27a2f7f9cfda13e734.png)
