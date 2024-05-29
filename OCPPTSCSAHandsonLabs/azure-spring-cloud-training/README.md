@@ -1,9 +1,3 @@
----
-page_type：sample
-Language：
--   Java
----
-
 # Azure Spring Cloud培训
 
 > 您将在此处找到关于 Azure Spring Cloud的完整Workshop，包括教程和演示。
