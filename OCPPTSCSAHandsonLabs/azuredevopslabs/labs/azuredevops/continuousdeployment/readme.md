@@ -1,13 +1,3 @@
----
-标题：通过Azure Pipelines拥抱持续交付
-布局：页面
-侧边栏：vsts
-固定链接：/ labs / azuredevops / continuousdeployment /
-文件夹：/ labs / azuredevops / continuousdeployment /
-版本：实验室版本-1.38.0
-已更新：最近更新-2020年10月11日
-redirect_from：“ / labs / vsts / continuousdeployment / index.htm”
----
 <div class =“ rw-ui-container”> </ div>
 <aname="概述"></a>
 
